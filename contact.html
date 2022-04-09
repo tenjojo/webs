@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="special.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+    <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="subheader"> 
+        <nav>
+            <a href="website.html"><img src="images/PikPng.com_monster-logo-png_2830104.png" alt="still the logo of monster"></a>
+            <div< class="nav-links" id="navLinks">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="website.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT</a></li>
+                    <li><a href="course.html">ANIME</a></li>
+                    <li><a href="blog.html">MANGA</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>        
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+        
+
+    </section>
+    <!------ contact us content ----->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.9587739885146!2d116.56818621604884!3d40.431911762638805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35f121d7687f2ccf%3A0xd040259b950522df!2sGreat%20Wall%20of%20China!5e0!3m2!1sen!2smn!4v1639054788142!5m2!1sen!2smn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Hidden</h5>
+                        <p></p>
+                </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>Not Given</h5>
+                        <p></p>
+                </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>zoloozoloo16@yahoo.com</h5>
+                        <p></p>
+                </span>
+                </div>
+            </div>
+            <div class="contact-col">
+            <form action="form-hndler.php" method="post">
+                <input type="text" name="name" placeholder="enter your name"required>
+                <input type="email" name="email" placeholder="enter your email"required>
+                <input type="text" name="subject" placeholder="enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn"> Send message</button>
+            </form> 
+
+
+
+
+        </div>
+    </section>
+
+
+
+     <!--- qweqe ---->
+     <section class="footer">
+         <h4>ABOUT US</h4>
+         <p>Just Another Dude And I Want To Add A Certain Turtle's Quote.<br> “Yesterday is history,<br>
+            tomorrow is a mystery,<br>
+            and today is a gift...<br>
+            that's why they call it present”<br>
+            ― Master Oogway</p></p>
+         <div class="icons">
+             <i class="fa fa-facebook"></i>
+             <i class="fa fa-twitter"></i>
+             <i class="fa fa-instagram"></i>
+             <i class="fa fa-linkedin"></i>
+             <i class="fa fa-weibo"></i>
+         </div>
+         <p>Made by ImportanceOfHappiness1</p>
+     </section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+            function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
